@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: white;
+    height: 100vh;
+    background-image: url("../pexels-danny-meneses-943096.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header > nav {
+    background-color: black;
+    text-align: end;
+    padding: 20px;
+    padding-right: 50px;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+header a:hover {
+    transition: 1s;
+    font-weight: bolder;
+    background-color: rgba(43, 40, 40, 0.267);
+}
+
+div#titulo {
+    color: white;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+div#titulo > h1 {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+}
+
+div#titulo > h2 {
+    padding-bottom: 20px;
+    font-size: 2.3em;
+}
+
+div#titulo > p {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#linkedin {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;  
+    background-color: #a05313;
+    max-width: max-content;
+}
+
+div#titulo a {
+    color: white;
+    font-weight: bolder;
+}
+
+main {
+    background-color: #111312;
+    color: white;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.description {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.description > h1 {
+    font-size: 1.5em;
+}
+
+.description > h2 {
+    font-size: 2em;
+    margin-bottom: 60px;
+}
+
+.description > p {
+    font-size: 1.2em;
+    margin: 30px 0px;
+    color: rgba(255, 255, 255, 0.521);
+    text-indent: 20px;
+    text-align: inherit;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 80%;
+    height: auto;
+    border-radius: 0px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);}
+  
