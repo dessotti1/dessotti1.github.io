@@ -10,6 +10,10 @@ Grandes telas: acima de 1200px
 
 */
 
+html {
+    scroll-behavior: smooth;
+  }  
+
 @media print {
 
 }
@@ -103,6 +107,7 @@ Grandes telas: acima de 1200px
     }
     
     .image > h1 {
+        padding-top: 10px;
         color: #a05313;
         margin-bottom: 25px;
         text-align: center;
@@ -119,7 +124,7 @@ Grandes telas: acima de 1200px
     }
     
     .description > p {
-        font-size: 1em;
+        font-size: 1.2em;
         margin: 15px 0px;
         color: rgba(255, 255, 255, 0.521);
         text-indent: 20px;
@@ -166,6 +171,7 @@ Grandes telas: acima de 1200px
     }
     
     .contact > h1 {
+        padding-top: 10px;
         color: #a05313;
         margin-bottom: 50px;
         text-align: center;
@@ -234,6 +240,7 @@ Grandes telas: acima de 1200px
     }
     
     .skills > h1 {
+        padding-top: 10px;
         color: #a05313;
         margin-bottom: 0px;
         text-align: center;
@@ -414,6 +421,7 @@ Grandes telas: acima de 1200px
     .container {
         display: flex;
         height: max-content;
+        padding-top: 10px;
     }
     
     .description {
@@ -484,6 +492,7 @@ Grandes telas: acima de 1200px
     }
     
     .contact > h1 {
+        padding-top: 10px;
         margin-bottom: 50px;
     }
     
@@ -549,6 +558,7 @@ Grandes telas: acima de 1200px
     }
     
     .skills > h1 {
+        padding-top: 10px;
         margin-bottom: 0px;
     }
     
