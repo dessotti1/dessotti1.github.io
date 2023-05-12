@@ -112,6 +112,15 @@ main {
     text-align: inherit;
 }
 
+/*
+.contact{
+    background-color: rgba(0, 0, 0, 0.199);
+    width: max-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+*/
+
 .college {
     font-weight: bolder;
     color: #4CAF50 ;
