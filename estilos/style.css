@@ -241,6 +241,10 @@ Grandes telas: acima de 1200px
         margin-top: 70px;
         margin-bottom: 30px;
     }
+
+    img {
+        display: none;
+    }
     
     .languages_programming, .markup_languages, .tools1, .tools2, .clouds{
         display: flex;
