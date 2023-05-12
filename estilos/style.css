@@ -119,7 +119,7 @@ Grandes telas: acima de 1200px
     }
     
     .description > p {
-        font-size: 0.8em;
+        font-size: 1em;
         margin: 15px 0px;
         color: rgba(255, 255, 255, 0.521);
         text-indent: 20px;
