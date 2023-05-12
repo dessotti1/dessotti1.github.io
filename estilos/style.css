@@ -28,7 +28,7 @@ Grandes telas: acima de 1200px
     header {
         color: white;
         height: 100vh;
-        background-image: url("../pexels-danny-meneses-943096.jpg");
+        background-image: url("../pexels-anete-lusina-4792733.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -61,22 +61,26 @@ Grandes telas: acima de 1200px
         color: white;
         padding-top: 100px;
         padding-left: 50px;
+        text-shadow: 2px 2px 2px black;
     }
     
     div#titulo > h1 {
         font-size: 1.2em;
         padding-bottom: 20px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
     }
     
     div#titulo > h2 {
         padding-bottom: 20px;
         font-size: 1.8em;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
     }
     
     div#titulo > p {
         font-size: 1em;
         padding-bottom: 20px;
         margin-bottom: 10px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
     }
     
     #linkedin {
@@ -85,6 +89,7 @@ Grandes telas: acima de 1200px
         border-radius: 50px;  
         background-color: #a05313;
         max-width: max-content;
+        text-shadow: none;
     }
     
     div#titulo a {
@@ -238,8 +243,8 @@ Grandes telas: acima de 1200px
     .skills > h2 {
         text-align: center;
         font-size: 1.5em;
-        margin-top: 70px;
-        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 60px;
     }
 
     .languages_programming, .markup_languages, .tools1, .tools2, .clouds{
@@ -290,6 +295,10 @@ Grandes telas: acima de 1200px
 
     #opencv {
         width: 110px;
+    }
+
+    #cvfig {
+        margin-bottom: 70px;
     }
 
     .observations{
