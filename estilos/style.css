@@ -210,3 +210,61 @@ main {
 .info > p {
     margin-bottom: 20px;
 }
+
+.skills{
+    margin: 50px 0px;
+}
+
+.skills > h1 {
+    margin-bottom: 30px;
+}
+
+.skills > h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.languages_programming, .markup_languages, .tools1, .tools2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.programming, .markup, .tools_fig, .tools_fig2{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+figure:hover figcaption {
+    color: #5CDC14;
+    transition: 1s;
+}
+
+.skills img{
+    width: 150px;
+    height: auto;
+}
+
+.tools_fig, .tools_fig2 > img{
+    width: 200px;
+    height: auto;
+}
+
+.tools_fig {
+    margin-bottom: 50px;
+}
+
+#opencv{
+    width: 150px;
+    height: auto;
+}
+
