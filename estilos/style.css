@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+body, html {
+    color: black;
+}
+
 header {
     color: white;
     height: 100vh;
@@ -31,7 +35,7 @@ header a {
     margin-left: 10px;
 }
 
-header a:hover {
+.nav:hover {
     transition: 1s;
     font-weight: bolder;
     background-color: rgba(43, 40, 40, 0.267);
@@ -80,6 +84,7 @@ main {
 
 .container {
     display: flex;
+    height: max-content;
 }
 
 .description {
@@ -89,7 +94,9 @@ main {
 }
 
 .description > h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    color: #a05313;
+    margin-bottom: 7px;
 }
 
 .description > h2 {
@@ -105,6 +112,21 @@ main {
     text-align: inherit;
 }
 
+.college {
+    font-weight: bolder;
+    color: #4CAF50 ;
+}
+
+.passions {
+    font-weight: bolder;
+    color: #007396;
+}
+
+.mark {
+    font-weight: bolder;
+    color: #7f52ff;
+}
+
 .image {
     flex: 1;
 }
@@ -114,4 +136,68 @@ main {
     height: auto;
     border-radius: 0px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);}
-  
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact > h1 {
+    margin-bottom: 50px;
+}
+
+.contact a {
+    margin-right: 30px;
+}
+
+.contact a#linkedin_final {
+    color: #0B66C2;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;  
+    background-color: white;
+    max-width: max-content;
+}
+
+.contact i #linkedin_final_i {
+    color: #0B66C2;
+}
+
+.contact a#github {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;  
+    background-color: white;
+    max-width: max-content;
+}
+
+.contact i #github_i {
+    color: black;
+}
+
+.contact a#whatsapp {
+    color: #39B693;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;  
+    background-color: white;
+    max-width: max-content;
+}
+
+.contact i #whatsapp_i {
+    color: #39B693;
+}
+
+.links{
+    margin-bottom: 70px;
+}
+
+.info > p {
+    margin-bottom: 20px;
+}
