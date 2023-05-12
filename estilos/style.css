@@ -30,7 +30,6 @@ Grandes telas: acima de 1200px
         height: 100vh;
         background-image: url("../pexels-anete-lusina-4792733.jpg");
         background-size: cover;
-        background-attachment: fixed;
     }
     
     header > nav {
