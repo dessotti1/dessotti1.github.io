@@ -299,9 +299,8 @@ Grandes telas: acima de 1200px
         padding: 10px;
         border-radius: 10px;
         background-color: gray;
-        width: max-content;
+        max-width: 500px;
         margin: auto;
-        font-weight: bolder;
         background-color: #1a1d1b;
         margin-top: 20px;
     }
