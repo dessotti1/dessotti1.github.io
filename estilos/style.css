@@ -95,34 +95,29 @@ Grandes telas: acima de 1200px
     main {
         background-color: #111312;
         color: white;
-        padding: 100px;
+        padding: 30px 100px 100px 100px;
     }
     
-    .container {
-        display: flex;
-        height: max-content;
-    }
-    
-    .description {
-        flex: 1;
-        padding-right: 20px;
-        padding-left: 50px;
-    }
-    
-    .description > h1 {
-        font-size: 1.3em;
+    .image > h1 {
+        font-size: 1.5em;
         color: #a05313;
-        margin-bottom: 7px;
+        margin-bottom: 25px;
+        text-align: center;
     }
     
     .description > h2 {
-        font-size: 2em;
-        margin-bottom: 60px;
+        font-size: 1.4em;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #me2 {
+        display: none;
     }
     
     .description > p {
-        font-size: 1.2em;
-        margin: 30px 0px;
+        font-size: 0.8em;
+        margin: 15px 0px;
         color: rgba(255, 255, 255, 0.521);
         text-indent: 20px;
         text-align: inherit;
@@ -152,16 +147,17 @@ Grandes telas: acima de 1200px
         color: #7f52ff;
     }
     
-    .image {
-        flex: 1;
-    }
-    
     .image img {
         width: 80%;
         height: auto;
-        border-radius: 0px 20px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);}
-    
+        margin: auto;
+        text-align: center;
+        display: block;
+        border-radius: 50%;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+        border: 5px solid #8800F7;
+    }
+
     .contact {
         margin-top: 100px;
     }
@@ -242,20 +238,18 @@ Grandes telas: acima de 1200px
         margin-bottom: 30px;
     }
 
-    img {
-        display: none;
-    }
-    
     .languages_programming, .markup_languages, .tools1, .tools2, .clouds{
-        display: flex;
-        justify-content: center;
-        align-items: end;
+        margin: auto;
     }
     
     .programming, .markup, .tools_fig, .tools_fig2, .cloud{
-        display: inline-block;
-        vertical-align: bottom;
         margin: 20px;
+    }
+
+    .programming, .markup, .tools_fig, .tools_fig2, .cloud > img {
+        display: block;
+        margin: 25px auto;
+        text-align: center;
     }
     
     figcaption {
@@ -266,13 +260,13 @@ Grandes telas: acima de 1200px
     
     figure:hover figcaption {
         transform: translateX(+10px);
-        transform: translateY(+5px);
+        transform: translateY(-5px);
         text-shadow: 2px 2px 2px black;
         transition: 1s;
     }
     
     .skills img{
-        width: 150px;
+        width: 120px;
         height: auto;
     }
     
@@ -289,12 +283,11 @@ Grandes telas: acima de 1200px
         margin-left: 50px;
         margin-right: 50px;
     }
-    
-    #opencv{
-        width: 120px;
-        height: auto;
+
+    #opencv {
+        width: 110px;
     }
-    
+
     .observations{
         padding: 10px;
         border-radius: 10px;
@@ -416,11 +409,15 @@ Grandes telas: acima de 1200px
         padding-right: 20px;
         padding-left: 50px;
     }
-    
+
     .description > h1 {
         font-size: 1.3em;
         color: #a05313;
         margin-bottom: 7px;
+    }
+
+    #me1 {
+        display: none;
     }
     
     .description > h2 {
