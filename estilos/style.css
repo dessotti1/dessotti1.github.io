@@ -99,7 +99,6 @@ Grandes telas: acima de 1200px
     }
     
     .image > h1 {
-        font-size: 1.5em;
         color: #a05313;
         margin-bottom: 25px;
         text-align: center;
@@ -163,11 +162,14 @@ Grandes telas: acima de 1200px
     }
     
     .contact > h1 {
+        color: #a05313;
         margin-bottom: 50px;
+        text-align: center;
     }
     
     .contact a {
-        margin-right: 30px;
+        display: block;
+        margin: 0 auto;
     }
     
     .contact a#linkedin_final {
@@ -228,7 +230,9 @@ Grandes telas: acima de 1200px
     }
     
     .skills > h1 {
+        color: #a05313;
         margin-bottom: 0px;
+        text-align: center;
     }
     
     .skills > h2 {
