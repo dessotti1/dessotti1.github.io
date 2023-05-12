@@ -245,7 +245,9 @@ figcaption {
 }
 
 figure:hover figcaption {
-    color: #5CDC14;
+    transform: translateX(+10px);
+    transform: translateY(+5px);
+    text-shadow: 2px 2px 2px black;
     transition: 1s;
 }
 
@@ -268,3 +270,21 @@ figure:hover figcaption {
     height: auto;
 }
 
+.observations{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    width: max-content;
+    margin: auto;
+    font-weight: bolder;
+    background-color: #1a1d1b;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    background-color: #262b28;
+    padding: 10px;
+}
