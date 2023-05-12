@@ -216,23 +216,23 @@ main {
 }
 
 .skills > h1 {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .skills > h2 {
     text-align: center;
     font-size: 1.5em;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 
-.languages_programming, .markup_languages, .tools1, .tools2{
+.languages_programming, .markup_languages, .tools1, .tools2, .clouds{
     display: flex;
     justify-content: center;
     align-items: end;
 }
 
-.programming, .markup, .tools_fig, .tools_fig2{
+.programming, .markup, .tools_fig, .tools_fig2, .cloud{
     display: inline-block;
     vertical-align: bottom;
     margin: 20px;
@@ -263,6 +263,11 @@ figure:hover figcaption {
 
 .tools_fig {
     margin-bottom: 50px;
+}
+
+.markup, .cloud {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #opencv{
