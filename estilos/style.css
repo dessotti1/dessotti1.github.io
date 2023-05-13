@@ -135,15 +135,6 @@ html {
         text-align: inherit;
     }
     
-    /*
-    .contact{
-        background-color: rgba(0, 0, 0, 0.199);
-        width: max-content;
-        padding: 20px;
-        border-radius: 10px;
-    }
-    */
-    
     .college {
         font-weight: bolder;
         color: #4CAF50 ;
@@ -254,15 +245,15 @@ html {
         margin-bottom: 60px;
     }
 
-    .languages_programming, .markup_languages, .tools1, .tools2, .clouds{
+    .languages_programming, .markup_languages, .tools1, .tools2, .clouds, .languages{
         margin: auto;
     }
     
-    .programming, .markup, .tools_fig, .tools_fig2, .cloud{
+    .programming, .markup, .tools_fig, .tools_fig2, .cloud, .language{
         margin: 20px;
     }
 
-    .programming, .markup, .tools_fig, .tools_fig2, .cloud > img {
+    .programming, .markup, .tools_fig, .tools_fig2, .cloud, .language > img {
         display: block;
         margin: 25px auto;
         text-align: center;
@@ -323,7 +314,7 @@ html {
         color: white;
         font-weight: lighter;
         background-color: #262b28;
-        padding: 10px;
+        padding: 10px 10px 20px 10px;
     }
 }
 
@@ -565,13 +556,13 @@ html {
         margin-bottom: 30px;
     }
     
-    .languages_programming, .markup_languages, .tools1, .tools2, .clouds{
+    .languages_programming, .markup_languages, .tools1, .tools2, .clouds, .languages{
         display: flex;
         justify-content: center;
         align-items: end;
     }
     
-    .programming, .markup, .tools_fig, .tools_fig2, .cloud{
+    .programming, .markup, .tools_fig, .tools_fig2, .cloud, .language{
         display: inline-block;
         vertical-align: bottom;
         margin: 20px;
@@ -593,6 +584,11 @@ html {
     .skills img{
         width: 150px;
         height: auto;
+    }
+
+    #br, #eua {
+        height: 200px;
+        width: auto;
     }
     
     .tools_fig, .tools_fig2 > img{
