@@ -425,6 +425,7 @@ html {
     .container {
         display: flex;
         height: max-content;
+        padding-top: 70px;
     }
     
     .description {
