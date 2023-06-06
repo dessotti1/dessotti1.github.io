@@ -439,16 +439,7 @@ html {
         text-indent: 20px;
         text-align: inherit;
     }
-    
-    /*
-    .contact{
-        background-color: rgba(0, 0, 0, 0.199);
-        width: max-content;
-        padding: 20px;
-        border-radius: 10px;
-    }
-    */
-    
+
     .college {
         font-weight: bolder;
         color: #4CAF50 ;
@@ -614,11 +605,13 @@ html {
         padding: 10px;
         border-radius: 10px;
         background-color: gray;
-        width: max-content;
+        max-width: 80%;
         margin: auto;
         font-weight: bolder;
         background-color: #1a1d1b;
         margin-top: 20px;
+        text-align: center;
+        line-height: 1.5;
     }
     
     footer {
